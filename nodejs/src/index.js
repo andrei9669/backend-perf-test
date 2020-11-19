@@ -35,7 +35,7 @@ const start = async function startServer() {
 
     // Create worker pool
     const pool = new StaticPool({
-      size: 15,
+      size: 16,
       task: filePath,
       workerData: {},
     })
