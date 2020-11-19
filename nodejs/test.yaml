@@ -1,0 +1,10 @@
+config:
+  target: http://0.0.0.0:5000
+  phases:
+    - duration: 30
+      arrivalRate: 1000
+scenarios:
+  - flow:
+      - get:
+          url: "/"
+
